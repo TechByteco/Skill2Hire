@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="phGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <filter id="phGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="#200d14"/>
+  <!-- Heart Perimeter Vector -->
+  <path d="M 100 160 C 50 120 30 90 30 65 C 30 45 45 32 65 32 C 80 32 93 42 100 52 C 107 42 120 32 135 32 C 155 32 170 45 170 65 C 170 90 150 120 100 160 Z" fill="#e11d48" fill-opacity="0.3" stroke="url(#phGrad)" stroke-width="8" stroke-linejoin="round" filter="url(#phGlow)"/>
+  <!-- Pulse EKG Line -->
+  <polyline points="40,88 75,88 85,60 95,115 105,75 115,95 125,88 160,88" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

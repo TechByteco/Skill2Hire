@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradCpp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#031b33"/>
+      <stop offset="50%" stop-color="#0a2540"/>
+      <stop offset="100%" stop-color="#021024"/>
+    </linearGradient>
+    <linearGradient id="cppBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00599c"/>
+      <stop offset="100%" stop-color="#004482"/>
+    </linearGradient>
+    <linearGradient id="cppCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <filter id="glowCpp" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="gridCpp" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#38bdf8" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#bgGradCpp)"/>
+  <rect width="600" height="340" fill="url(#gridCpp)"/>
+  <circle cx="150" cy="170" r="120" fill="#00599c" fill-opacity="0.25" filter="url(#glowCpp)"/>
+  <circle cx="450" cy="170" r="120" fill="#0284c7" fill-opacity="0.15" filter="url(#glowCpp)"/>
+  <rect x="20" y="20" width="560" height="300" rx="16" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-opacity="0.25"/>
+
+  <!-- C++ Hex Shield & Symbol Vector -->
+  <g transform="translate(85, 80)">
+    <!-- Hexagonal Crest -->
+    <polygon points="80,10 145,45 145,120 80,155 15,120 15,45" fill="#00599c" fill-opacity="0.3" stroke="url(#cppCyan)" stroke-width="3" filter="url(#glowCpp)"/>
+    <polygon points="80,20 135,52 135,113 80,145 25,113 25,52" fill="#031b33" fill-opacity="0.8"/>
+    <!-- C++ Lettering Vector -->
+    <text x="52" y="100" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="900">C</text>
+    <!-- Plus Signs -->
+    <g fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900">
+      <text x="88" y="75">+</text>
+      <text x="105" y="88">+</text>
+    </g>
+  </g>
+
+  <!-- Typography & Details (Right Side) -->
+  <g transform="translate(270, 70)">
+    <rect x="0" y="0" width="130" height="26" rx="13" fill="#0284c7" fill-opacity="0.15" stroke="#0284c7" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="65" y="17" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0.5">HIGH-PERF</text>
+
+    <text x="0" y="65" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="-0.5">C++ Systems &amp;</text>
+    <text x="0" y="98" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5">Memory Mastery</text>
+
+    <text x="0" y="135" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Pointers • RAII • STL • Low Latency</text>
+
+    <g transform="translate(0, 155)">
+      <rect x="0" y="0" width="70" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="35" y="15" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Pointers</text>
+
+      <rect x="78" y="0" width="60" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="108" y="15" fill="#fbbf24" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">RAII</text>
+
+      <rect x="146" y="0" width="75" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="183" y="15" fill="#34d399" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">STL Vector</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ngGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="ngGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="#180c24"/>
+  <!-- AI Neural Spark Star -->
+  <path d="M 100 25 Q 100 100 175 100 Q 100 100 100 175 Q 100 100 25 100 Q 100 100 100 25 Z" fill="url(#ngGrad)" filter="url(#ngGlow)"/>
+  <circle cx="100" cy="100" r="14" fill="#ffffff"/>
+  <circle cx="100" cy="100" r="6" fill="#ec4899"/>
+</svg>

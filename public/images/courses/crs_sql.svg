@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradSql" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06221c"/>
+      <stop offset="50%" stop-color="#0b382f"/>
+      <stop offset="100%" stop-color="#041814"/>
+    </linearGradient>
+    <linearGradient id="sqlEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="sqlTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <filter id="glowSql" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="gridSql" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#10b981" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#bgGradSql)"/>
+  <rect width="600" height="340" fill="url(#gridSql)"/>
+  <circle cx="150" cy="170" r="120" fill="#10b981" fill-opacity="0.2" filter="url(#glowSql)"/>
+  <circle cx="450" cy="170" r="120" fill="#14b8a6" fill-opacity="0.12" filter="url(#glowSql)"/>
+  <rect x="20" y="20" width="560" height="300" rx="16" fill="none" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.25"/>
+
+  <!-- Database Stack Cylinders Vector -->
+  <g transform="translate(85, 80)">
+    <!-- Top Cylinder -->
+    <g filter="url(#glowSql)">
+      <path d="M 20 30 C 20 15 130 15 130 30 L 130 55 C 130 70 20 70 20 55 Z" fill="#059669"/>
+      <ellipse cx="75" cy="30" rx="55" ry="15" fill="#34d399"/>
+    </g>
+
+    <!-- Middle Cylinder -->
+    <path d="M 20 65 C 20 50 130 50 130 65 L 130 90 C 130 105 20 105 20 90 Z" fill="#047857"/>
+    <ellipse cx="75" cy="65" rx="55" ry="15" fill="#10b981"/>
+
+    <!-- Bottom Cylinder -->
+    <path d="M 20 100 C 20 85 130 85 130 100 L 130 125 C 130 140 20 140 20 125 Z" fill="#065f46"/>
+    <ellipse cx="75" cy="100" rx="55" ry="15" fill="#059669"/>
+
+    <!-- SQL Badge Overlay -->
+    <rect x="40" y="115" width="70" height="24" rx="12" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+    <text x="75" y="131" fill="#34d399" font-family="monospace" font-size="12" font-weight="900" text-anchor="middle">SQL</text>
+  </g>
+
+  <!-- Typography & Details (Right Side) -->
+  <g transform="translate(270, 70)">
+    <rect x="0" y="0" width="120" height="26" rx="13" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="60" y="17" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0.5">DATABASES</text>
+
+    <text x="0" y="65" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="-0.5">SQL &amp; Relational</text>
+    <text x="0" y="98" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5">DB Architecture</text>
+
+    <text x="0" y="135" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Joins • Indexing • ACID • Schema Design</text>
+
+    <g transform="translate(0, 155)">
+      <rect x="0" y="0" width="60" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="30" y="15" fill="#34d399" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Joins</text>
+
+      <rect x="68" y="0" width="70" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="103" y="15" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Indexes</text>
+
+      <rect x="146" y="0" width="75" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="183" y="15" fill="#fbbf24" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Postgres</text>
+    </g>
+  </g>
+</svg>

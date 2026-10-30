@@ -1,0 +1,16 @@
+{
+  "name": "skill2hire",
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

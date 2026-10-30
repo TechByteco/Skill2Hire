@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradApt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191338"/>
+      <stop offset="50%" stop-color="#281a54"/>
+      <stop offset="100%" stop-color="#0f0c24"/>
+    </linearGradient>
+    <linearGradient id="aptGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="aptRose" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <filter id="glowApt" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="gridApt" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#a78bfa" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#bgGradApt)"/>
+  <rect width="600" height="340" fill="url(#gridApt)"/>
+  <circle cx="150" cy="170" r="120" fill="#a78bfa" fill-opacity="0.2" filter="url(#glowApt)"/>
+  <circle cx="450" cy="170" r="120" fill="#fbbf24" fill-opacity="0.12" filter="url(#glowApt)"/>
+  <rect x="20" y="20" width="560" height="300" rx="16" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-opacity="0.25"/>
+
+  <!-- Aptitude Math Puzzle Vector -->
+  <g transform="translate(85, 80)">
+    <!-- Isometric Cube / Puzzle Geometry -->
+    <polygon points="75,20 125,50 75,80 25,50" fill="#a78bfa" fill-opacity="0.4" stroke="#c4b5fd" stroke-width="2"/>
+    <polygon points="25,50 75,80 75,135 25,105" fill="#7c3aed" fill-opacity="0.5" stroke="#c4b5fd" stroke-width="2"/>
+    <polygon points="125,50 75,80 75,135 125,105" fill="#6d28d9" fill-opacity="0.6" stroke="#c4b5fd" stroke-width="2"/>
+
+    <!-- Speed Lightning Accent -->
+    <path d="M 80 40 L 60 75 L 75 75 L 65 110 L 95 65 L 80 65 Z" fill="url(#aptGold)" filter="url(#glowApt)"/>
+  </g>
+
+  <!-- Typography & Details (Right Side) -->
+  <g transform="translate(270, 70)">
+    <rect x="0" y="0" width="140" height="26" rx="13" fill="#a78bfa" fill-opacity="0.15" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="70" y="17" fill="#c4b5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0.5">PROBLEM SOLVING</text>
+
+    <text x="0" y="65" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="-0.5">Quantitative &amp;</text>
+    <text x="0" y="98" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5">Logical Aptitude</text>
+
+    <text x="0" y="135" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Speed Math • Permutations • Logic Puzzles</text>
+
+    <g transform="translate(0, 155)">
+      <rect x="0" y="0" width="70" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="35" y="15" fill="#fbbf24" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Probability</text>
+
+      <rect x="78" y="0" width="60" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="108" y="15" fill="#c4b5fd" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Logic</text>
+
+      <rect x="146" y="0" width="75" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="183" y="15" fill="#34d399" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Aptitude</text>
+    </g>
+  </g>
+</svg>

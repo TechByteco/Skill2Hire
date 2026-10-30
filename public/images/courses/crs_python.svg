@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="50%" stop-color="#112240"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="pyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="pyYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#3b82f6" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="340" fill="url(#bgGrad)"/>
+  <rect width="600" height="340" fill="url(#grid)"/>
+
+  <!-- Ambient Glow Blobs -->
+  <circle cx="150" cy="170" r="120" fill="#3b82f6" fill-opacity="0.15" filter="url(#glow)"/>
+  <circle cx="450" cy="170" r="120" fill="#f59e0b" fill-opacity="0.12" filter="url(#glow)"/>
+
+  <!-- Geometric Accent Borders -->
+  <rect x="20" y="20" width="560" height="300" rx="16" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.25"/>
+
+  <!-- Python Dual Snake Icon Vector -->
+  <g transform="translate(100, 85) scale(0.85)">
+    <!-- Blue Upper Segment -->
+    <path d="M 85 10 C 45 10 48 27 48 27 L 48 45 L 87 45 L 87 51 L 32 51 C 32 51 10 48 10 88 C 10 128 29 126 29 126 L 41 126 L 41 109 C 41 109 40 88 62 88 L 101 88 C 101 88 121 89 121 69 L 121 31 C 121 31 123 10 85 10 Z M 65 24 C 69 24 73 28 73 32 C 73 36 69 40 65 40 C 61 40 57 36 57 32 C 57 28 61 24 65 24 Z" fill="url(#pyBlue)" filter="url(#glow)"/>
+    <!-- Yellow Lower Segment -->
+    <path d="M 85 160 C 125 160 122 143 122 143 L 122 125 L 83 125 L 83 119 L 138 119 C 138 119 160 122 160 82 C 160 42 141 44 141 44 L 129 44 L 129 61 C 129 61 130 82 108 82 L 69 82 C 69 82 49 81 49 101 L 49 139 C 49 139 47 160 85 160 Z M 105 146 C 101 146 97 142 97 138 C 97 134 101 130 105 130 C 109 130 113 134 113 138 C 113 142 109 146 105 146 Z" fill="url(#pyYellow)" filter="url(#glow)"/>
+  </g>
+
+  <!-- Typography & Details (Right Side) -->
+  <g transform="translate(270, 70)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="130" height="26" rx="13" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="65" y="17" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0.5">PROGRAMMING</text>
+
+    <!-- Main Title -->
+    <text x="0" y="65" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="-0.5">Python Core &amp;</text>
+    <text x="0" y="98" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.5">Systems Mastery</text>
+
+    <!-- Code Pill / Subtitle -->
+    <text x="0" y="135" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Industry-Ready Placement Curriculum</text>
+
+    <!-- Terminal Tags -->
+    <g transform="translate(0, 155)">
+      <rect x="0" y="0" width="60" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="30" y="15" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">OOP</text>
+
+      <rect x="68" y="0" width="75" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="105" y="15" fill="#fbbf24" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Modules</text>
+
+      <rect x="151" y="0" width="75" height="22" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="188" y="15" fill="#34d399" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">Verified</text>
+    </g>
+  </g>
+</svg>
