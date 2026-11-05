@@ -658,10 +658,15 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="border-t border-slate-800/80 bg-slate-950 py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-3">
-            <Skill2HireSymbol size="sm" />
-            <span className="font-bold text-white text-base">Skill2Hire</span>
-            <span className="text-xs text-slate-400">© 2026 Skill2Hire Inc. All rights reserved. • Built by <strong className="text-slate-200 font-bold">Saalimin</strong></span>
+          <div className="flex flex-col items-center md:items-start gap-1">
+            <div className="flex items-center gap-3">
+              <Skill2HireSymbol size="sm" />
+              <span className="font-bold text-white text-base">Skill2Hire</span>
+              <span className="text-xs text-slate-400">© 2026 Skill2Hire Inc. All rights reserved. • Built by <strong className="text-slate-200 font-bold">Saalimin N</strong></span>
+            </div>
+            <p className="text-[11px] text-slate-400 italic font-medium ml-0 sm:ml-10">
+              For students who are working towards their first opportunity.
+            </p>
           </div>
 
           <div className="flex items-center gap-6 text-xs text-slate-400">

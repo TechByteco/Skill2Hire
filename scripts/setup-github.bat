@@ -3,7 +3,8 @@ setlocal enabledelayedexpansion
 echo ========================================================
 echo Skill2Hire - Automated GitHub Setup & Push
 echo Account: TechByteco
-echo Author: Saalimin
+echo Author: Saalimin N
+echo Dedication: For students who are working towards their first opportunity.
 echo ========================================================
 echo.
 cd /d "%~dp0\.."
@@ -11,9 +12,9 @@ cd /d "%~dp0\.."
 set "GH_EXE=C:\Users\saali\AppData\Local\Programs\gh\bin\gh.exe"
 
 echo Step 1: Checking Git identity...
-git config user.name "Saalimin"
+git config user.name "Saalimin N"
 git config user.email "TechByteco@users.noreply.github.com"
-echo Git user configured: Saalimin ^<TechByteco@users.noreply.github.com^>
+echo Git user configured: Saalimin N ^<TechByteco@users.noreply.github.com^>
 
 echo.
 echo Step 2: Initializing Git repository...
@@ -31,7 +32,7 @@ git add -A
 
 echo.
 echo Step 4: Creating commit...
-git commit -m "feat: complete Skill2Hire platform - Built by Saalimin"
+git commit -m "feat: author Saalimin N - For students who are working towards their first opportunity"
 
 echo.
 echo Step 5: Checking GitHub remote...

@@ -391,8 +391,9 @@ export default function Sidebar({
           </div>
 
           {!isCollapsed && (
-            <div className="text-[10px] text-center text-slate-400 font-medium pt-0.5">
-              Built by <span className="font-bold text-slate-700">Saalimin</span>
+            <div className="text-[10px] text-center text-slate-400 font-medium pt-0.5 space-y-0.5">
+              <div>Built by <span className="font-bold text-slate-800">Saalimin N</span></div>
+              <div className="text-[9px] text-slate-400 italic leading-tight">For students who are working towards their first opportunity.</div>
             </div>
           )}
         </div>

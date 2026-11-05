@@ -2,7 +2,7 @@
   "name": "skill2hire",
   "version": "0.1.0",
   "private": true,
-  "author": "Saalimin",
+  "author": "Saalimin N",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

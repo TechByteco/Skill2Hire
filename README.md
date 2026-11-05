@@ -2,7 +2,8 @@
 
 **Skill2Hire** is an AI-powered enterprise platform closing the critical gap between academic curricula and industry hiring demands. It equips students with AI-verified skill credentials, offers universities real-time syllabus gap heatmaps, and provides enterprise recruiters with pre-vetted campus talent.
 
-**Author / Creator**: Built by **Saalimin**
+**Author / Creator**: Built by **Saalimin N**  
+*For students who are working towards their first opportunity.*
 
 ---
 

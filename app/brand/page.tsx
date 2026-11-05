@@ -119,11 +119,11 @@ export default function BrandIdentityPage() {
                   <span>Our Mission</span>
                 </div>
                 <span className="text-[11px] font-semibold text-slate-500">
-                  Built by <strong className="text-slate-900 font-bold">Saalimin</strong>
+                  Built by <strong className="text-slate-900 font-bold">Saalimin N</strong>
                 </span>
               </div>
               <blockquote className="text-xs sm:text-sm text-slate-700 font-semibold italic leading-relaxed">
-                "To bridge the gap between <strong>education and employment</strong> by making <strong>skill-based learning, verification, and hiring</strong> smarter, faster, and more effective for everyone."
+                "To bridge the gap between <strong>education and employment</strong> by making <strong>skill-based learning, verification, and hiring</strong> smarter, faster, and more effective for everyone. For students who are working towards their first opportunity."
               </blockquote>
             </div>
 

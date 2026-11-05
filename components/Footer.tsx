@@ -67,10 +67,13 @@ export default function Footer() {
 
         </div>
 
-        <div className="mt-8 pt-6 border-t border-slate-800 text-center flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} Skill2Hire Platform. All rights reserved.</p>
-          <div className="flex items-center space-x-4 mt-2 sm:mt-0">
-            <span>Built by <strong className="text-slate-200 font-bold hover:text-white transition-colors">Saalimin</strong></span>
+        <div className="mt-8 pt-6 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+          <div className="text-center md:text-left">
+            <p>© {new Date().getFullYear()} Skill2Hire Platform. All rights reserved.</p>
+            <p className="text-[11px] text-slate-400 mt-1 font-medium">For students who are working towards their first opportunity.</p>
+          </div>
+          <div className="flex items-center space-x-4">
+            <span className="text-slate-300">Built by <strong className="text-white font-bold hover:text-primary-400 transition-colors">Saalimin N</strong></span>
           </div>
         </div>
       </div>

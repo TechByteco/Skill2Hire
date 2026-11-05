@@ -5,9 +5,9 @@ import AppShell from '@/components/AppShell';
 
 export const metadata: Metadata = {
   title: 'Skill2Hire — Learn. Verify. Get Hired.',
-  description: 'AI-Powered Student–College–Company Job & Skill Development Hub connecting verified talent with top tech companies. Built by Saalimin.',
-  authors: [{ name: 'Saalimin' }],
-  creator: 'Saalimin',
+  description: 'AI-Powered Student–College–Company Job & Skill Development Hub connecting verified talent with top tech companies. Built by Saalimin N. For students who are working towards their first opportunity.',
+  authors: [{ name: 'Saalimin N' }],
+  creator: 'Saalimin N',
 };
 
 export default function RootLayout({
